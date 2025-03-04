@@ -1,4 +1,4 @@
-package com.example.baitapspring;
+package com.example.baitapspring.domain;
 
 public interface Vehicle {
 

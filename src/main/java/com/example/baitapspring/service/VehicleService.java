@@ -1,8 +1,8 @@
-package com.example.baitapspring;
+package com.example.baitapspring.service;
 
 
+import com.example.baitapspring.domain.Vehicle;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -10,7 +10,7 @@ public class VehicleService {
     private final Vehicle vehicle;
 
     @Autowired
-    public VehicleService(@Qualifier("bike") Vehicle vehicle) {
+    public VehicleService(Vehicle vehicle) {
         this.vehicle = vehicle;
     }
 

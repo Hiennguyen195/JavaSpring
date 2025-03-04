@@ -1,10 +1,8 @@
-package com.example.baitapspring.implement;
+package com.example.baitapspring.model;
 
-import com.example.baitapspring.Vehicle;
-import org.springframework.context.annotation.ComponentScan;
+import com.example.baitapspring.domain.Vehicle;
 import org.springframework.stereotype.Component;
 
-@ComponentScan
 @Component
 public class Car implements Vehicle {
 
